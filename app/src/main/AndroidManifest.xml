@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.canoga_android_elijahc">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Canoga_Android_ElijahC"
+        tools:targetApi="31" >
+
+        <!-- Main activity with launcher intent filter -->
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Canoga_Android_ElijahC" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other activities -->
+        <activity
+            android:name=".BoardSizeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Canoga_Android_ElijahC"/>
+
+        <activity
+            android:name=".FileLoadingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Canoga_Android_ElijahC"/>
+
+        <activity
+            android:name=".GameActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Canoga_Android_ElijahC"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="unspecified"/>
+
+
+        <activity
+            android:name=".TournamentResultsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Canoga_Android_ElijahC"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBoardSizeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Board Size"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSize9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_marginRight="12dp"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnSize10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:layout_marginRight="12dp"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnSize11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="48dp"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="48dp"
+        android:textSize="20sp"/>
+</LinearLayout>

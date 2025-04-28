@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="36dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Canoga"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Human: 0 | Computer: 0"
+                android:textSize="16sp"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/svGameLog"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="14dp"
+            android:background="#EEEEEE"
+            android:fillViewport="true"
+            android:nestedScrollingEnabled="true"
+            android:isScrollContainer="true">
+
+            <TextView
+                android:id="@+id/tvGameLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Game Log:"
+                android:textSize="14sp"
+                android:padding="10dp"/>
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Board"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <GridLayout
+                android:id="@+id/glComputerBoard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"/>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Board"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="6dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <GridLayout
+                android:id="@+id/glHumanBoard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"/>
+        </HorizontalScrollView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/dynamicButton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Button1"
+                android:layout_margin="4dp"
+                android:elevation="6dp"/>
+
+            <Button
+                android:id="@+id/dynamicButton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Button2"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/dynamicButton3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Button3"
+                android:layout_margin="4dp"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Save"
+                android:layout_margin="4dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#222222"/>
+
+            <Button
+                android:id="@+id/btnQuit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="Quit"
+                android:layout_margin="4dp"
+                android:backgroundTint="#D3D3D3"
+                android:textColor="#333333"/>
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnShowLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Log"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="14dp"
+            android:backgroundTint="#D3D3D3"
+            android:textColor="#333333"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
