@@ -17,21 +17,24 @@ This app was developed using **Java** and **Android Studio** as part of a progra
 
 ## 📸 Screenshots
 
-| Welcome Screen | Board Size Selection | Game Start |
-|:--------------:|:--------------------:|:----------:|
-| ![Welcome](screenshots/Welcome.png) | ![Board Size](screenshots/BoardSize.png) | ![Game Start](screenshots/GameStart.png) |
+| Welcome Screen | Load Game | Board Size Selection |
+|:--------------:|:---------:|:--------------------:|
+| ![Welcome](screenshots/Welcome.png) | ![Load Game](screenshots/LoadGame.png) | ![Board Size](screenshots/BoardSize.png) |
 
-| Move Selection | Game Log | Move Help |
-|:--------------:|:--------:|:---------:|
-| ![Move Select](screenshots/MoveSelect.png) | ![Game Log](screenshots/GameLog.png) | ![Move Help](screenshots/MoveHelp.png) |
+| Game Start | Manual Dice Roll | Move Selection |
+|:----------:|:----------------:|:--------------:|
+| ![Game Start](screenshots/GameStart.png) | ![Manual Roll](screenshots/ManualRoll.png) | ![Move Select](screenshots/MoveSelect.png) |
 
-| Manual Dice Roll | Game Win | Load Game |
-|:----------------:|:--------:|:---------:|
-| ![Manual Roll](screenshots/ManualRoll.png) | ![Game Win](screenshots/GameWin.png) | ![Load Game](screenshots/LoadGame.png) |
+| Cover Help | Move Help | Game Win |
+|:----------:|:---------:|:--------:|
+| ![Cover Help](screenshots/CoverHelp.png) | ![Move Help](screenshots/MoveHelp.png) | ![Game Win](screenshots/GameWin.png) |
 
-| New Game Menu | Cover Help | Results Screen |
-|:-------------:|:----------:|:--------------:|
-| ![New Game](screenshots/NewGame.png) | ![Cover Help](screenshots/CoverHelp.png) | ![Results](screenshots/Results.png) |
+| New Game Menu | Game Log | Results Screen |
+|:-------------:|:--------:|:--------------:|
+| ![New Game](screenshots/NewGame.png) | ![Game Log](screenshots/GameLog.png) | ![Results](screenshots/Results.png) |
+
+
+
 
 
 
