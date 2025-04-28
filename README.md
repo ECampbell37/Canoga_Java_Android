@@ -1,7 +1,7 @@
 # 🎲 Canoga - Android Mobile Game
 
 Welcome to **Canoga** — a mobile adaptation of the classic board game!  
-This app was developed using **Java** and **Android Studio** as part of a programming project.
+This app was developed using **Java** and **Android Studio** as a project for my Organization of Programming Languages Course CMPS-366.
 
 ---
 
