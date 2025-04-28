@@ -12,6 +12,29 @@ This app was developed using **Java** and **Android Studio** as part of a progra
 - Designed with **simple, intuitive touch controls** for a smooth mobile experience.
 - Built with a strong separation of Model-View-Controller (**MVC**) principles.
 
+
+---
+
+## 📸 Screenshots
+
+| Welcome Screen | Board Size Selection | Game Start |
+|:--------------:|:--------------------:|:----------:|
+| ![Welcome](screenshots/Welcome.png) | ![Board Size](screenshots/BoardSize.png) | ![Game Start](screenshots/GameStart.png) |
+
+| Move Selection | Game Log | Move Help |
+|:--------------:|:--------:|:---------:|
+| ![Move Select](screenshots/MoveSelect.png) | ![Game Log](screenshots/GameLog.png) | ![Move Help](screenshots/MoveHelp.png) |
+
+| Manual Dice Roll | Game Win | Load Game |
+|:----------------:|:--------:|:---------:|
+| ![Manual Roll](screenshots/ManualRoll.png) | ![Game Win](screenshots/GameWin.png) | ![Load Game](screenshots/LoadGame.png) |
+
+| New Game Menu | Cover Help | Results Screen |
+|:-------------:|:----------:|:--------------:|
+| ![New Game](screenshots/NewGame.png) | ![Cover Help](screenshots/CoverHelp.png) | ![Results](screenshots/Results.png) |
+
+
+
 ---
 
 ## 🛠️ Tech Stack
@@ -43,18 +66,14 @@ This app was developed using **Java** and **Android Studio** as part of a progra
 3. Connect an Android device or use an emulator.
 4. Build and run the app!
 
----
 
-## 📸 Screenshots
-
-*(Coming soon)*
 
 ---
 
 ## 📚 Acknowledgments
 
 - Classic **Canoga/Shut the Box** rules and gameplay.
-- Developed as part of my Organization of Programming Languages Course.
+- Developed as part of my Organization of Programming Languages Course CMPS-366.
 
 ---
 
